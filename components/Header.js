@@ -12,8 +12,8 @@ function Header() {
   return (
     <>
       <header className="w-full h-20 lg:flex hidden justify-center bg-[#F9FAFB]/70 items-center p-5 absolute top-0">
-        <div className="flex justify-center items-center gap-5">
-          <div className="w-[40px]">
+        <div className="flex justify-center items-center gap-36">
+          <div className="w-[65px]">
             <Image src={Logo} alt="seal squad" />
           </div>
           <Link href={"/"}>
