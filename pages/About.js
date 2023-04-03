@@ -11,7 +11,7 @@ function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex w-full justify-start items-center py-14 lg:py-0 ">
-        <p className="lg:w-[50%] w-full lg:text-xl text-base text-black">
+        <p className="lg:w-[60%] w-full bg-[#F9FAFB]/10 lg:text-xl text-base text-black">
           Seal Squad is a unique collection of 3,333 seals that will take you on
           an exciting journey filled with adventures and rewards.
           Well aim to push the boundaries of Web3 while building a community of like-minded

@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <div className='flex lg:w-[90%] w-full lg:justify-end justify-center items-center '>
-      <p className='lg:w-[50%] w-full lg:text-3xl text-lg bg-[#F9FAFB]/10 p-3 lg:text-left text-center rounded-lg'>
+      <p className='lg:w-[55%] w-full lg:text-3xl text-lg bg-[#F9FAFB]/10 p-3 lg:text-left text-center rounded-lg'>
       3,333 pixelated seals invading Web3.<br></br>
       Dont let their cuteness fool you.<br></br>
       Establish your squad to complete top secret missions for rewards
