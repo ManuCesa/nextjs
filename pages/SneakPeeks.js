@@ -28,28 +28,30 @@ function SneakPeeks() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start w-full py-14 lg:py-0">
-        <div className="flex justify-center items-center gap-5">
-          <div>
-            <Image src={SQ1F} alt="SQ1F" />
-          </div>
-          <div>
-            <Image src={SQ2F} alt="SQ2F" />
-          </div>
-          <div>
-            <Image src={SQ3F} alt="SQ3F" />
-          </div>
-          <div>
-            <Image src={SQ4F} alt="SQ4F" />
-          </div>
-          <div>
-            <Image src={SQ5F} alt="SQ5F" />
-          </div>
-          <div>
-            <Image src={SQ6F} alt="SQ6F" />
+      <Swiper spaceBetween={50} slidesPerView={3}>
+        <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start w-full py-14 lg:py-0">
+          <div className="flex justify-center items-center gap-5">
+            <SwiperSlide>
+              <Image src={SQ1F} alt="SQ1F" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={SQ2F} alt="SQ2F" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={SQ3F} alt="SQ3F" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={SQ4F} alt="SQ4F" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={SQ5F} alt="SQ5F" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Image src={SQ6F} alt="SQ6F" />
+            </SwiperSlide>
           </div>
         </div>
-      </div>
+      </Swiper>
     </main>
   );
 }
