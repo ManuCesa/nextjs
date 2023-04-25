@@ -28,9 +28,9 @@ function SneakPeeks() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Swiper spaceBetween={50} slidesPerView={3}>
-        <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start w-full py-14 lg:py-0">
-          <div className="flex justify-center items-center gap-5">
+      <Swiper spaceBetween={1} slidesPerView={3}>
+        <div className>
+          <div className>
             <SwiperSlide>
               <Image src={SQ1F} alt="SQ1F" />
             </SwiperSlide>
