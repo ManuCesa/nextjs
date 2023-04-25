@@ -28,12 +28,11 @@ function SneakPeeks() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Swiper spaceBetween={1} slidesPerView={3}>
+      <Swiper spaceBetween={1} slidesPerView={3} navigation={true}>
         <div className>
           <div className>
             <SwiperSlide>
               <Image src={SQ1F} alt="SQ1F" />
-              <Image src={SQ2F} alt="SQ2F" />
             </SwiperSlide>
             <SwiperSlide>
               <Image src={SQ2F} alt="SQ2F" />
