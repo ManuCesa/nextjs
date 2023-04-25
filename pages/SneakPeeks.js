@@ -33,6 +33,7 @@ function SneakPeeks() {
           <div className>
             <SwiperSlide>
               <Image src={SQ1F} alt="SQ1F" />
+              <Image src={SQ2F} alt="SQ2F" />
             </SwiperSlide>
             <SwiperSlide>
               <Image src={SQ2F} alt="SQ2F" />
