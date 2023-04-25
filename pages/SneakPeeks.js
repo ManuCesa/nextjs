@@ -14,6 +14,8 @@ import SQ11F from '/public/assets/SQ11F.png';
 import SQ12F from '/public/assets/SQ12F.png';
 import SQ13F from '/public/assets/SQ13F.png';
 import SQ14F from '/public/assets/SQ14F.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
 
 function SneakPeeks() {
   return (
@@ -21,14 +23,31 @@ function SneakPeeks() {
       className={`flex flex-col min-h-screen justify-center items-center bg-[url("/assets/bg/team.gif")] bg-center bg-cover px-5 pt-10`}
     >
       <Head>
-        <title>Seal Squad - Team</title>
+        <title>Seal Squad - SneakPeeks</title>
         <meta name="description" content="Seal Squad" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className="flex flex-col gap-2 justify-center items-center lg:justify-start lg:items-start w-full py-14 lg:py-0">
         <div className="flex justify-center items-center gap-5">
-          <Image src={SQ1F} alt="SQ1F" />
+          <div>
+            <Image src={SQ1F} alt="SQ1F" />
+          </div>
+          <div>
+            <Image src={SQ2F} alt="SQ2F" />
+          </div>
+          <div>
+            <Image src={SQ3F} alt="SQ3F" />
+          </div>
+          <div>
+            <Image src={SQ4F} alt="SQ4F" />
+          </div>
+          <div>
+            <Image src={SQ5F} alt="SQ5F" />
+          </div>
+          <div>
+            <Image src={SQ6F} alt="SQ6F" />
+          </div>
         </div>
       </div>
     </main>
