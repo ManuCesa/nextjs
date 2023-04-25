@@ -15,13 +15,11 @@ import SQ12F from '/public/assets/SQ12F.png';
 import SQ13F from '/public/assets/SQ13F.png';
 import SQ14F from '/public/assets/SQ14F.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
+import { EffectCards, Navigation } from 'swiper';
 import 'swiper/css';
 import React, { useRef, useState } from 'react';
 import 'swiper/css/navigation';
-import { EffectCube, Autoplay } from 'swiper';
-import 'swiper/css/effect-cube';
-
+import { Autoplay } from 'swiper';
 function SneakPeeks() {
   return (
     <main
@@ -32,13 +30,14 @@ function SneakPeeks() {
         <meta name="description" content="Seal Squad" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="w-full flex justify-center items-center">
+      <div className="w-3/4 flex justify-center items-center">
         <Swiper
           navigation={true}
-          modules={Navigation}
           slidesPerView={3}
-          effect={'cube'}
-          modules={[EffectCube, Autoplay]}
+          modules={[Autoplay, Navigation, EffectCards]}
+          effect={'cards'}
+          grabCursor={true}
+          centeredSlides={true}
         >
           <SwiperSlide>
             <div>
