@@ -33,9 +33,9 @@ function Header() {
                 Roadmap
               </p>
             </Link>
-            <Link href={'/Team'}>
+            <Link href={'/SneakPeeks'}>
               <p className="social" style={{ fontSize: '24px' }}>
-                Team
+                SneakPeeks
               </p>
             </Link>
 
@@ -131,8 +131,8 @@ function Header() {
             <Link href={'/Roadmap'}>
               <p className="social">Roadmap</p>
             </Link>
-            <Link href={'/Team'}>
-              <p className="social">Team</p>
+            <Link href={'/SneakPeeks'}>
+              <p className="social">SneakPeeks</p>
             </Link>
 
             <div className="flex justify-center items-center gap-5">
