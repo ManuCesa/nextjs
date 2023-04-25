@@ -14,7 +14,7 @@ function Header() {
       <header className="w-full h-12 lg:flex hidden justify-center bg-[#F9FAFB]/70 items-center p-5 absolute top-0">
         <div className="flex justify-center items-center">
           <div
-            className="w-[45px] mr-[800px] ml-auto cursor-pointer"
+            className="w-[45px] mr-[600px] ml-auto cursor-pointer"
             onClick={() => (window.location.href = '/')}
           >
             <Image src={Logo} alt="seal squad" />
