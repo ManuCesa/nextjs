@@ -19,6 +19,8 @@ import { Navigation } from 'swiper';
 import 'swiper/css';
 import React, { useRef, useState } from 'react';
 import 'swiper/css/navigation';
+import { EffectCube, Autoplay } from 'swiper';
+import 'swiper/css/effect-cube';
 
 function SneakPeeks() {
   return (
@@ -30,31 +32,46 @@ function SneakPeeks() {
         <meta name="description" content="Seal Squad" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Swiper navigation={true} modules={Navigation}>
-        <div>
-          <div>
-            <SwiperSlide>
+      <div className="w-full flex justify-center items-center">
+        <Swiper
+          navigation={true}
+          modules={Navigation}
+          slidesPerView={3}
+          effect={'cube'}
+          modules={[EffectCube, Autoplay]}
+        >
+          <SwiperSlide>
+            <div>
               <Image src={SQ1F} alt="SQ1F" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
               <Image src={SQ2F} alt="SQ2F" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
               <Image src={SQ3F} alt="SQ3F" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
               <Image src={SQ4F} alt="SQ4F" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
               <Image src={SQ5F} alt="SQ5F" />
-            </SwiperSlide>
-            <SwiperSlide>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
               <Image src={SQ6F} alt="SQ6F" />
-            </SwiperSlide>
-          </div>
-        </div>
-      </Swiper>
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </main>
   );
 }
