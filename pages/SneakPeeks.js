@@ -15,6 +15,7 @@ import SQ12F from '/public/assets/SQ12F.png';
 import SQ13F from '/public/assets/SQ13F.png';
 import SQ14F from '/public/assets/SQ14F.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper';
 import 'swiper/css';
 
 function SneakPeeks() {
@@ -28,7 +29,7 @@ function SneakPeeks() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Swiper spaceBetween={1} slidesPerView={3} navigation={true}>
+      <Swiper navigation={true} modules={Navigation}>
         <div className>
           <div className>
             <SwiperSlide>
