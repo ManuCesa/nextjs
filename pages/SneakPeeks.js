@@ -17,7 +17,7 @@ import SQ14F from '/public/assets/SQ14F.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import 'swiper/css';
-import React, { useRef, useState} from 'react';
+import React, { useRef, useState } from 'react';
 import 'swiper/css/navigation';
 
 function SneakPeeks() {
@@ -32,8 +32,8 @@ function SneakPeeks() {
       </Head>
 
       <Swiper navigation={true} modules={Navigation}>
-        <div className>
-          <div className>
+        <div>
+          <div>
             <SwiperSlide>
               <Image src={SQ1F} alt="SQ1F" />
             </SwiperSlide>
