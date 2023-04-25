@@ -17,6 +17,8 @@ import SQ14F from '/public/assets/SQ14F.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import 'swiper/css';
+import React, { useRef, useState} from 'react';
+import 'swiper/css/navigation';
 
 function SneakPeeks() {
   return (
