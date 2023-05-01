@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { isMobile } from 'react-device-detect';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards, Navigation } from 'swiper';

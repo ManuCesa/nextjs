@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { isMobile } from 'react-device-detect';
 
 function About() {
   let backgroundImageUrl = '/assets/bg/about.gif';

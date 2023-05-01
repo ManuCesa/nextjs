@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { isMobile } from 'react-device-detect';
 
 function Roadmap() {
   let backgroundImageUrl = '/assets/bg/RoadmapF.gif';
