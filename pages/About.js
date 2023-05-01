@@ -1,12 +1,13 @@
 import Head from 'next/head';
-import { isMobile } from 'react-device-detect';
 
 function About() {
-  let backgroundImageUrl = '/assets/bg/about.gif';
+  const [backgroundImageUrl, setBG] = useState('/assets/bg/about.gif')
 
-  if (isMobile) {
-    backgroundImageUrl = '/assets/bg/AereoSmall.gif';
-  }
+  useEffect(() => {
+    if(window.innerWidth < 500) {
+      setBG('/assets/bg/AereoSmall.gif')
+    }
+  }, [])
 
   return (
     <main

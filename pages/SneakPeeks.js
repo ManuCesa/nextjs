@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { isMobile } from 'react-device-detect';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards, Navigation } from 'swiper';
@@ -10,11 +9,13 @@ import 'swiper/css/navigation';
 import 'swiper/css/effect-cards';
 import { Autoplay } from 'swiper';
 function SneakPeeks() {
-  let backgroundImageUrl = '/assets/bg/team.gif';
+  const [backgroundImageUrl, setBG] = useState('/assets/bg/team.gif');
 
-  if (isMobile) {
-    backgroundImageUrl = '/assets/bg/BarcaSm.gif';
-  }
+  useEffect(() => {
+    if (window.innerWidth < 500) {
+      setBG('/assets/bg/BarcaSm.gif');
+    }
+  }, []);
 
   return (
     <main

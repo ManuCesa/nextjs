@@ -1,14 +1,17 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Mint from '../components/Mint';
-import { isMobile } from 'react-device-detect';
 
 export default function Home() {
-  let backgroundImageUrl = '/assets/bg/home.gif';
 
-  if (isMobile) {
-    backgroundImageUrl = '/assets/bg/TankSm.gif';
-  }
+  const [backgroundImageUrl, setBG] = useState('/assets/bg/home.gif')
+
+  useEffect(() => {
+    if(window.innerWidth < 500) {
+      setBG('/assets/bg/TankSm.gif')
+    }
+  }, [])
+
 
   return (
     <main

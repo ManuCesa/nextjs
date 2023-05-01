@@ -1,12 +1,16 @@
 import Head from 'next/head';
-import { isMobile } from 'react-device-detect';
 
 function Roadmap() {
-  let backgroundImageUrl = '/assets/bg/RoadmapF.gif';
+ 
+  const [backgroundImageUrl, setBG] = useState('/assets/bg/RoadmapF.gif')
 
-  if (isMobile) {
-    backgroundImageUrl = '/assets/bg/RoadMapSM.gif';
-  }
+  useEffect(() => {
+    if(window.innerWidth < 500) {
+      setBG('/assets/bg/RoadMapSM.gif')
+    }
+  }, [])
+
+
 
   return (
     <main
