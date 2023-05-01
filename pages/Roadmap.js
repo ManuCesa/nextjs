@@ -1,19 +1,15 @@
 import Head from 'next/head';
 
 function Roadmap() {
-
-
   let backgroundImageUrl = '/assets/bg/RoadmapF.gif';
 
   if (isMobile) {
-    backgroundImageUrl = '/assets/bg/TankSm.gif';
+    backgroundImageUrl = '/assets/bg/RoadMapSM.gif';
   }
-
-
 
   return (
     <main
-      className={`flex flex-col min-h-screen justify-center items-center bg-[url("/assets/bg/RoadmapF.gif")] bg-top bg-cover px-5 pt-10`}
+      className={`flex flex-col min-h-screen justify-center items-center bg-[url("${backgroundImageUrl}")] bg-top bg-cover px-5 pt-10`}
     >
       <Head>
         <title>Seal Squad - Roadmap</title>

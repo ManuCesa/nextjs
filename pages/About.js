@@ -1,9 +1,15 @@
 import Head from 'next/head';
 
 function About() {
+  let backgroundImageUrl = '/assets/bg/about.gif';
+
+  if (isMobile) {
+    backgroundImageUrl = '/assets/bg/AereoSmall.gif';
+  }
+
   return (
     <main
-      className={`flex flex-col min-h-screen justify-center items-center bg-[url("/assets/bg/about.gif")] bg-center bg-cover px-5 pt-10`}
+      className={`flex flex-col min-h-screen justify-center items-center bg-[url("${backgroundImageUrl}")] bg-center bg-cover px-5 pt-10`}
     >
       <Head>
         <title>Seal Squad - About</title>
