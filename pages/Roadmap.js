@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 
 
 function Roadmap() {
@@ -9,7 +9,7 @@ function Roadmap() {
   useEffect(() => {
     if(window.innerWidth < 500) {
       setBG('/assets/bg/RoadMapSM.gif')
-    }
+    } 
   }, [])
 
 

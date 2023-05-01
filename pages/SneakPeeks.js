@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards, Navigation } from 'swiper';
 import 'swiper/css';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-cards';
 import { Autoplay } from 'swiper';

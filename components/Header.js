@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '/public/assets/seal-mlogo.png';
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 
 function Header() {
   const [isOpen, setisOpen] = useState(false);

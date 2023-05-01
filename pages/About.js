@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 
 function About() {
   const [backgroundImageUrl, setBG] = useState('/assets/bg/about.gif');

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Mint from '../components/Mint';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect} from 'react';
 
 
 export default function Home() {
