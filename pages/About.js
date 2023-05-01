@@ -11,8 +11,15 @@ function About() {
 
   return (
     <main
-      className={`flex flex-col min-h-screen justify-center items-center bg-[url(${backgroundImageUrl})] bg-center bg-cover px-5 pt-10`}
-    >
+    className="flex flex-col min-h-screen justify-center items-center"
+    style={{ 
+      backgroundImage: `url(${backgroundImageUrl})`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundColor: '#F9FAFB',
+      opacity: 0.1,
+    }}
+  >
       <Head>
         <title>Seal Squad - About</title>
         <meta name="description" content="Seal Squad" />
