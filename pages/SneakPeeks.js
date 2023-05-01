@@ -19,7 +19,7 @@ function SneakPeeks() {
 
   return (
     <main
-      className={`flex flex-col min-h-screen justify-center items-center bg-[url("${backgroundImageUrl}")] bg-center bg-cover px-5 pt-10`}
+      className={`flex flex-col min-h-screen justify-center items-center bg-[url(${backgroundImageUrl})] bg-center bg-cover px-5 pt-10`}
     >
       <Head>
         <title>Seal Squad - SneakPeeks</title>

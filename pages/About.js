@@ -1,17 +1,17 @@
 import Head from 'next/head';
 
 function About() {
-  const [backgroundImageUrl, setBG] = useState('/assets/bg/about.gif')
+  const [backgroundImageUrl, setBG] = useState('/assets/bg/about.gif');
 
   useEffect(() => {
-    if(window.innerWidth < 500) {
-      setBG('/assets/bg/AereoSmall.gif')
+    if (window.innerWidth < 500) {
+      setBG('/assets/bg/AereoSmall.gif');
     }
-  }, [])
+  }, []);
 
   return (
     <main
-      className={`flex flex-col min-h-screen justify-center items-center bg-[url("${backgroundImageUrl}")] bg-center bg-cover px-5 pt-10`}
+      className={`flex flex-col min-h-screen justify-center items-center bg-[url(${backgroundImageUrl})] bg-center bg-cover px-5 pt-10`}
     >
       <Head>
         <title>Seal Squad - About</title>
