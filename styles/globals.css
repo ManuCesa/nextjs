@@ -18,3 +18,23 @@
     @apply text-black hover:text-gray-700 cursor-pointer;
   }
 }
+
+.swiper {
+  width: 520px;
+  height: 520px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.BoxSwiper {
+  width: 66%;
+  margin-right: 600px;
+}
