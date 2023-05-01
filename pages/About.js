@@ -17,8 +17,6 @@ function About() {
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-        backgroundColor: '#F9FAFB',
-        opacity: 0.1,
       }}
     >
       <Head>
