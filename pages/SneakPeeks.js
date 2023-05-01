@@ -24,7 +24,7 @@ function SneakPeeks() {
         backgroundImage: `url(${backgroundImageUrl})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
-      }}
+      }} 
     >
       <Head>
         <title>Seal Squad - SneakPeeks</title>
