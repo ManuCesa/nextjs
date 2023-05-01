@@ -5,7 +5,8 @@ import Mint from '../components/Mint';
 export default function Home() {
 
   return (
-    <main className={`flex flex-col min-h-screen justify-center items-center bg-[url("/assets/bg/home.gif")] bg-center bg-cover px-5 pt-10`}>
+
+<main className={`flex flex-col min-h-screen justify-center items-center ${isMobile ? 'bg-[url("/assets/bg/testtest.gif")] bg-center bg-cover' : 'bg-[url("/assets/bg/home.gif")] bg-center bg-cover'} px-5 pt-10`}>
       <Head>
         <title>Seal Squad - Home</title>
         <meta name="description" content="Seal Squad" />
