@@ -1,19 +1,5 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import SQ1 from '/public/assets/SQ1.png';
-import SQ2 from '/public/assets/SQ2.png';
-import SQ3 from '/public/assets/SQ3.png';
-import SQ4 from '/public/assets/SQ4.png';
-import SQ5 from '/public/assets/SQ5.png';
-import SQ6 from '/public/assets/SQ6.png';
-import SQ7 from '/public/assets/SQ7.png';
-import SQ8 from '/public/assets/SQ8.png';
-import SQ9 from '/public/assets/SQ9.png';
-import SQ10 from '/public/assets/SQ10.png';
-import SQ11 from '/public/assets/SQ11.png';
-import SQ12 from '/public/assets/SQ12.png';
-import SQ13 from '/public/assets/SQ13.png';
-import SQ14 from '/public/assets/SQ14.png';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards, Navigation } from 'swiper';
@@ -43,46 +29,46 @@ function SneakPeeks() {
           centeredSlides={true}
         >
           <SwiperSlide>
-            <Image src={SQ1} alt="SQ1F" />
+            <Image src="/public/assets/SQ1.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ2} alt="SQ2F" />
+            <Image src="/public/assets/SQ2.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ3} alt="SQ3F" />
+            <Image src="/public/assets/SQ3.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ4} alt="SQ4F" />
+            <Image src="/public/assets/SQ4.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ5} alt="SQ5F" />
+            <Image src="/public/assets/SQ5.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ6} alt="SQ6F" />
+            <Image src="/public/assets/SQ6.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ7} alt="SQ6F" />
+            <Image src="/public/assets/SQ7.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ8} alt="SQ6F" />
+            <Image src="/public/assets/SQ8.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ9} alt="SQ6F" />
+            <Image src="/public/assets/SQ9.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ10} alt="SQ6F" />
+            <Image src="/public/assets/SQ10.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ11} alt="SQ6F" />
+            <Image src="/public/assets/SQ11.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ12} alt="SQ6F" />
+            <Image src="/public/assets/SQ12.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ13} alt="SQ6F" />
+            <Image src="/public/assets/SQ13.png" />
           </SwiperSlide>
           <SwiperSlide>
-            <Image src={SQ14} alt="SQ6F" />
+            <Image src="/public/assets/SQ14.png" />
           </SwiperSlide>
         </Swiper>
       </div>
