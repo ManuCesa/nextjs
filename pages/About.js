@@ -25,7 +25,7 @@ function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex w-full justify-start items-center py-14 lg:py-0 ">
-        <p className="lg:w-[60%] w-full bg-[#F9FAFB]/10 lg:text-3xl text-base text-black">
+        <p className="lg:w-[60%] w-full bg-[#F9FAFB]/10 lg:text-3xl text-base text-black pl-30">
           Introducing Seal Squad, a collection of 3,333 unique, pixelated seals
           invading Web3! These adorable creatures are anything but harmless...
           Don t let their cuteness fool you.
