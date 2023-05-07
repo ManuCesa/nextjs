@@ -22,11 +22,6 @@
 .swiper {
   width: 520px;
   height: 520px;
-
-  @media screen and (max-width: 768px) {
-    width: 300px;
-    height: 300px;
-  }
 }
 
 .swiper-slide {
@@ -39,7 +34,7 @@
   color: #fff;
 }
 
-.swiper-slide img { 
+.swiper-slide img {
   max-width: 100%;
   max-height: 100%;
 }
@@ -52,5 +47,12 @@
     width: 100%;
     margin-right: 0;
     margin-left: 0;
+  }
+}
+
+.BoxSwiper .swiper {
+  @media screen and (max-width: 768px) {
+    width: 300px;
+    height: 300px;
   }
 }
