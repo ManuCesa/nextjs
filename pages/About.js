@@ -28,7 +28,7 @@ function About() {
         <p className="lg:w-[60%] w-full bg-[#F9FAFB]/10 lg:text-3xl text-base text-black">
           Introducing Seal Squad, a collection of 3,333 unique, pixelated seals
           invading Web3! These adorable creatures are anything but harmless...
-          Don t let their cuteness fool you.
+          Don t let their cuteness fool you. 
           <br></br>
           <br></br>
           To join the action, you ll need to establish your #squad of seals,
